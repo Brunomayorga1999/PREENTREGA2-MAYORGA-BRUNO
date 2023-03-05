@@ -5,6 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HELADERIA ALAM</title>
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="img/imagenfavicon.jpg"
+      type="imagen de vista"
+    />
+    <!-- KEYWORDS K-->
+    <meta name="keywords" content="helados, heladeria, las varillas, cordoba" />
+    <!-- Description -->
+    <meta
+      name="Description"
+      content=" En Heladeria & Delacatessen Alan queremos tener un acercamiento real con nuestros clientes, de esta manera le dejamos este espacio para que puedas hacerlo."
+    />
+
     <!--CSS-->
 
     <link
@@ -23,12 +37,13 @@
       </div>
       <nav class="navbar navbar-expand-lg fondoheader">
         <div class="container-fluid">
+          <a href="../index.html" class="logo">
           <img
             class="logo"
             src="../img/2017-07-29-removebg-preview-removebg-preview (1).png"
             alt="Logo de la heladeria"
           />
-          <a class="navbar-brand" href="../index.html">INICIO</a>
+        </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -46,9 +61,12 @@
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="mercaderia.html"
-                  >mercaderia</a
+                  href="../index.html"
+                  >INICIO</a
                 >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mercaderia.html">MERCADERIA</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="sucursal.html">sucursal</a>
@@ -73,38 +91,46 @@
         </div>
       </nav>
 
-      <h1>Contacto</h1>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input
-          type="email"
-          class="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
-        />
-        <div id="emailHelp" class="form-text">
-          We'll never share your email with anyone else.
+      <h1 class="hover">Contacto</h1>
+      <div class="container-fluid">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >CORREO ELECTRONICO</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text"></div>
         </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >CONTRASEÑA</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <button
+          type="button"
+          class="btn btn-primary"
+          style="
+            --bs-btn-padding-y: 0.2rem;
+            --bs-btn-padding-x: 0.5rem;
+            --bs-btn-font-size: 0.7rem;
+          "
+        >
+          Iniciar sesión
+        </button>
       </div>
-      <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input
-          type="password"
-          class="form-control"
-          id="exampleInputPassword1"
-        />
-      </div>
-
-      <!-- SCRIP DE BUSTRAP XD -->
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"
-      ></script>
     </header>
 
     <main>
-      <h2 class="titulo">Contactenos</h2>
+      <h2 class="titulo hover">Contactenos</h2>
       <p class="informacion">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, error.
         Officiis, repellat, optio molestias fugit autem minus, ab nulla neque
@@ -135,4 +161,10 @@
       <p class="text-center text-muted">&copy; 202 Heladeria alam, Inc</p>
     </footer>
   </body>
+  <!-- SCRIP DE BUSTRAP XD -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
 </html>
