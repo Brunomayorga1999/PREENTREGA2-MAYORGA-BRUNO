@@ -1,0 +1,9 @@
+.hover {
+  color: $color_2;
+  font-size: 3rem;
+  transition: all 0.5s;
+  &:hover {
+    color: $color_2;
+    font-size: 4rem;
+  }
+}

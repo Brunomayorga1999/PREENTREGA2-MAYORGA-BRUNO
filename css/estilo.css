@@ -1,130 +1,117 @@
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
+
 /*Fondo*/
-
 body {
-
-    background-color: bisque;
-
+  background-color: bisque;
 }
-/*Texto*/
 
 h1 {
-
-    text-align: center;
-    color: #695958;
-    text-decoration:underline ;
-    margin: 20px;
+  text-align: center;
+  color: #695958;
+  text-decoration: underline;
+  margin: 20px;
 }
-/*Menu*/
+
 li {
-   
-    display:inline-block ;
-
+  display: inline-block;
 }
-
 
 a {
-color: black;
-text-transform: uppercase;
-font-weight: bold;
-margin: 10px 10px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 10px 10px;
 }
 
 main {
-
-    margin: 20px;
-    padding: 20px;
-
-
+  margin: 20px;
+  padding: 20px;
 }
 
 .informacion {
-
-    text-align: right;
+  text-align: right;
 }
 
 iframe {
-    border: 1px solid black;
-    width: 100%;
+  border: 1px solid black;
+  width: 100%;
 }
 
-.logo{
-    width: 80px;
-}
-.fondoheader{
-   background-color: burlywood ;
-
+.logo {
+  width: 80px;
 }
 
-.botonmio{
-    background-color: bisque;
-    border: 1px solid black;
-}
-/* descuentos online */
-.superior{
-
-    height: 20px;
-    background-color:#993300 ;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.superior p{
-    margin-bottom: 0;
-
+.fondoheader {
+  background-color: burlywood;
 }
 
-/* imagen central */
-.banner{
-
-    background-image: url("../img/logo.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 500px;
-
-
-}
-.banner h2{
-
-    color: black;
-    font-size: 3rem;
-    text-align: left;
-    font-weight: 900;
-    margin: 50px;
-}
-.banner p{
-    color: black;
-    font-size: 1rem;
-    text-align: center;
+.botonmio {
+  background-color: bisque;
+  border: 1px solid black;
 }
 
-/* footer */
-h3{
-    color: black;
-    font-size: 1rem;
+.superior {
+  height: 20px;
+  background-color: #993300;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-img{
-    width: 100%;
+.superior p {
+  margin-bottom: 0;
 }
-.cards{
-    display: flex;
-    flex-direction: row;
+
+.banner {
+  background-image: url("../img/logo.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 500px;
 }
-@media (max-width: 600px){
-    html{
-        font-size: 90%;
-    }
+.banner h2 {
+  color: black;
+  font-size: 3rem;
+  text-align: left;
+  font-weight: 900;
+  margin: 50px;
 }
-.hover{
-     color: black;
-     font-size: 3rem;
-     transition: all 0.5s;
+.banner p {
+  color: black;
+  font-size: 1rem;
+  text-align: center;
 }
-.hover:hover{
-    color: black;
-    font-size: 4rem;
+
+h3 {
+  color: black;
+  font-size: 1rem;
 }
+
+img {
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.hover {
+  color: black;
+  font-size: 3rem;
+  transition: all 0.5s;
+}
+.hover:hover {
+  color: black;
+  font-size: 4rem;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
