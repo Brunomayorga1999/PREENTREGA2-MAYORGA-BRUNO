@@ -61,16 +61,18 @@ iframe {
   align-items: center;
   justify-content: center;
 }
+
 .superior p {
   margin-bottom: 0;
 }
 
 .banner {
-  background-image: url("../img/logo.jpg");
+  background-image: url("../img/imagen-6.jpg");
   background-size: cover;
   width: 100%;
   height: 500px;
 }
+
 .banner h2 {
   color: black;
   font-size: 3rem;
@@ -78,6 +80,7 @@ iframe {
   font-weight: 900;
   margin: 50px;
 }
+
 .banner p {
   color: black;
   font-size: 1rem;
@@ -103,6 +106,7 @@ img {
   font-size: 3rem;
   transition: all 0.5s;
 }
+
 .hover:hover {
   color: black;
   font-size: 4rem;
